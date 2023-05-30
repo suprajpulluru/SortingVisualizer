@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right,#e22865,#37adcd);
+    color: white;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,button.new,.sort-types,.size,.speed{
+    margin-bottom:20px;
+}
+
+button{
+    cursor:pointer;
+    padding:4px;
+    background-color:#FFE4E1;
+    border-style: none;
+}
+
+button:hover{
+    background-color: transparent;
+    color:white;
+}
+
+.bars-section{
+    width:60%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bar{
+    width:20px;
+    border: 1px solid black;
+    background-color: yellow;
+}
